@@ -12,7 +12,7 @@ Route::get('/about', function () {
     return view('pages.about', [
         'nama'=> 'sendy prayogo',
         'umur'=> '29',
-        'nim' => '008',
+        'nim' => '666',
     ]);
 });
 
