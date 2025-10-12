@@ -10,9 +10,9 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('pages.about', [
-        'nama'=> 'sendy prayogo',
-        'umur'=> '29',
-        'nim' => '666',
+        'nama'=> 'Sendy Prayogo',
+        'kelas'=> 'TSM-00',
+        'nim' => '0123456789',
     ]);
 });
 

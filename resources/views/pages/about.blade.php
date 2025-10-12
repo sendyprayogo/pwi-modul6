@@ -44,7 +44,7 @@
         <h1>Selamat Datang di Halaman About</h1>
         <div class="card">
             <div class="card-body">
-                Selamat datang {{$nama}}, umurmu {{$umur}} dengan nim {{$nim}}
+                Selamat datang {{$nama}}, dari kelas {{$kelas}} dengan nim {{$nim}}
             </div>
         </div>
     </div>
