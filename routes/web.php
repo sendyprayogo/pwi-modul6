@@ -16,10 +16,5 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/about/{id}/detail', function($id){
-    return view('pages.detail', [
-        'nomer'=>$id
-    ]);
-});
-
 Route::view('/contact', 'pages.contact');
+Route::view('/product', 'pages.product');
