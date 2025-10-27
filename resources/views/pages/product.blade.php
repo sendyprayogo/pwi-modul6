@@ -3,11 +3,18 @@
 @section('content')
 <h1>Daftar produk kami</h1>
 <hr>
-<button type="button" class="btn btn-primary mb-3">Tambah Data</button>
+<a href="/product/addProduct" type="button" class="btn btn-primary mb-3">Tambah Data</a>
 <div class="card">
     <card class="card-header">
         Produk Kami
     </card>
+    <div class="alert alert-primary">
+        <b>Nama Tokok : </b> {{$sName}}
+        <br>
+        <b>Alamat Toko : </b> {{$sAdress}}
+        <br>
+        <b>Status Toko : </b> {{$sStatus}}
+    </div>
     <div class="card-body">
         <table class="table table-striped table-bordered">
             <thead>

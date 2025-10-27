@@ -19,7 +19,6 @@
 
         {{-- isi konten --}}
         @yield('content')
-        @yield('h2')
 
     </div>
 
